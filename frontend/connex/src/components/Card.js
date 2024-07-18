@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import '../css/friend.css';
-var blink = "http://localhost:5000";
+var blink = "https://connex-backend.onrender.com";
 export default function Card(props) {
     const [connected, setConnected] = useState(true);
 
