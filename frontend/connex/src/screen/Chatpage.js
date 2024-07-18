@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import io from 'socket.io-client';
 import SideBar from '../components/SideBar';
 import '../css/chatpage.css'; // Import the CSS file
-var blink = "http://localhost:5000";
+var blink = "https://connex-backend.onrender.com";
 var slink = "http://localhost:4000"
 const Chatpage = () => {
     const navigate = useNavigate();
