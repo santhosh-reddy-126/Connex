@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Post from './Post'
 import '../css/one.css'
-var blink = "http://localhost:5000";
+var blink = "https://connex-backend.onrender.com";
 export default function Posts() {
   const [data,setdata]=useState([])
   
