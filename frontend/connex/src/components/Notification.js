@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import '../css/profile.css'; 
-var blink = "http://localhost:5000";
+var blink = "https://connex-backend.onrender.com";
 export default function Notification() {
     const [notification, setNotification] = useState([]);
 
