@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../css/chat.css';
-var blink = "http://localhost:5000";
+var blink = "https://connex-backend.onrender.com";
 export default function Home() {
     const navigate = useNavigate();
     const [data, setData] = useState([]);
