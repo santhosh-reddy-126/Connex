@@ -9,7 +9,7 @@ import bell from './images/bell.png';
 import Notification from './Notification';
 import { useNavigate } from 'react-router-dom';
 import '../css/one.css';
-var blink = "http://localhost:5000";
+var blink = "https://connex-backend.onrender.com";
 export default function SideBar(props) {
     const [noti, setnot] = useState(false);
     const [notify, setnotify] = useState(false);
