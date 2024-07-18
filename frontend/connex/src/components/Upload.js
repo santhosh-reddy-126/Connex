@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../css/profile.css'; // Import the CSS file where your styles are defined
-var blink = "http://localhost:5000";
+var blink = "https://connex-backend.onrender.com";
 export default function Upload() {
     const nav = useNavigate();
     const [data, setData] = useState({
