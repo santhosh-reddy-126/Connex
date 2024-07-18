@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import SideBar from '../components/SideBar';
 import Card from '../components/Card';
 import '../css/two.css';
-var blink = "http://localhost:5000";
+var blink = "https://connex-backend.onrender.com";
 export default function Home() {
     const navigate = useNavigate();
     const [data, setData] = useState([]);
