@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom"
 import SideBar from '../components/SideBar';
 import Search from "../components/Search"
 import '../css/chat.css';
-var blink = "http://localhost:5000";
+var blink = "https://connex-backend.onrender.com";
 export default function Home() {
     const [top,settop]=useState([]);
     const [bot,setbot]=useState([]);
