@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDom from 'react-dom'
-var blink = "http://localhost:5000";
+var blink = "https://connex-backend.onrender.com";
 const MODAL_STYLES = {
   position: 'fixed',
   top: '50%',
