@@ -1,0 +1,229 @@
+.Main {
+    background-image: url("../bgs/Login.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+.PostContainer {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 5px;
+    justify-content: center;
+    background-color: rgba(33, 33, 30, 0.75);
+
+}
+
+.PostContainer h2 {
+    color: #F4CE14;
+}
+.ImgPart{
+    border: 3px solid #379777;
+    padding: 20px;
+    background-image: linear-gradient(135deg,yellow 50%,#379777 50%);
+}
+.ImgPart>h2{
+    color: #379777;
+}
+
+
+.PostActions {
+    width: 300px;
+}
+
+.PostActions button {
+    background-color: transparent;
+    border: 0;
+}
+
+.PostActions button img {
+    height: 50px;
+    width: 50px;
+}
+
+.PostDetails {
+    width: 300px;
+}
+
+.PostDetails span {
+    color: #F4CE14;
+    font-weight: bold;
+}
+
+.PostDetails p {
+    color: #F4CE14;
+    font-size: 15px;
+}
+
+
+
+
+.AddCommentButton {
+    width: 200px;
+    height: 20px;
+    color: #F4CE14;
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+
+.Side {
+    background-color: #F4CE14;
+    width: 80px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.Side button {
+    background-color: #F4CE14;
+    border: 0;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.Side button img {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+@media screen and (max-width: 1420px) and (min-width:1200px)  {
+    .MainImage{
+        height: 300px;
+        width: 400px;
+    }
+    .CommentsContainer{
+        width: 300px;
+        font-size: small;
+        height: 230px;
+    }
+    .AddCommentButton{
+        width: 200px;
+        height: 25px;
+        font-size: 17px;
+    }
+    .Side{
+        width: 70px;
+    }
+    .Side button img{
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width:770px)  {
+    .MainImage{
+        height: 200px;
+        width: 280px;
+    }
+    .CommentsContainer{
+        width: 200px;
+        font-size: 12px;
+        height: 190px;
+    }
+    .AddCommentButton{
+        width: 150px;
+        height: 18px;
+        font-size: 11px;
+    }
+    .PostDetails p{
+        width: 200px;
+    }
+    .PostActions {
+        width: 200px;
+    }
+    .PostContainer{
+        gap: 10px;
+    }
+    .Side{
+        width: 60px;
+    }
+    .Side button img{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+
+@media screen and (max-width: 770px) and (min-width:623px){
+    .PostContainer{
+        flex-direction: column;
+    }
+    .MainImage{
+        height: 300px;
+        width: 500px;
+    }
+    .PostDetails p{
+        width: 500px;
+    }
+    .PostActions {
+        width: 500px;
+    }
+    .CommentsContainer{
+        width: 500px;
+        height: 280px;
+    }
+    .AddCommentButton{
+        width: 200px;
+        height: 25px;
+        font-size: 17px;
+    }
+    .Side{
+        width: 50px;
+    }
+    .Side button img{
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media screen and (max-width: 623px){
+    .PostContainer{
+        flex-direction: column;
+    }
+    .MainImage{
+        height: 150px;
+        width: 300px;
+    }
+    .PostDetails p{
+        width: 240px;
+    }
+    .PostActions {
+        width: 300px;
+    }
+    .CommentsContainer{
+        width: 240px;
+        height: 260px;
+    }
+    .AddCommentButton{
+        width: 130px;
+        height: 20px;
+        font-size: 10px;
+    }
+    .Side{
+        width: 40px;
+    }
+    .Side button img{
+        width: 25px;
+        height: 25px;
+    }
+}
+
+
+
+

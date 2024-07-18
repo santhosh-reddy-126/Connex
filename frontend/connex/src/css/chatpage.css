@@ -1,0 +1,101 @@
+
+
+.container {
+    display: flex;
+    gap: 100px;
+}
+
+.message-container {
+    overflow-y: auto;
+    scrollbar-width: none;
+    height: 430px;
+}
+
+.message {
+    background-color: #45474B;
+    color: #F5F7F8;
+    border: 5px solid;
+    border-image: linear-gradient(30deg, yellow 50%, green 50%) 1;
+    margin: 10px;
+    width: fit-content;
+    height: fit-content;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.input {
+    width: 1050px;
+    height: 40px;
+    font-size: 30px;
+    background-color: #45474B;
+    color: #F5F7F8;
+    border: 5px solid;
+    border-image: linear-gradient(30deg, yellow 50%, green 50%) 1;
+}
+
+.User>h1{
+    color: #379777;
+}
+.button {
+    background-color: #45474B;
+    color: #F5F7F8;
+    border: 5px solid;
+    border-image: linear-gradient(30deg, yellow 50%, green 50%) 1;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    cursor: pointer; 
+}
+
+
+
+@media screen and (max-width:1340px) and (min-width:1200px) {
+    .input{
+        width: 800px;
+    }
+    .container{
+        gap: 80px;
+    }
+}
+
+
+@media screen and (max-width:1200px) and (min-width:900px) {
+    .input{
+        width: 600px;
+    }
+    .container{
+        gap: 50px;
+    }
+    .message{
+        width: 600px;
+        word-wrap: break-word;
+    }
+}
+
+
+@media screen and (max-width:900px) and (min-width:600px) {
+    .input{
+        width: 400px;
+    }
+    .message{
+        width: 400px;
+        word-wrap: break-word;
+    }
+    .container{
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .input{
+        width: 250px;
+    }
+    .container{
+        gap: 10px;
+    }
+    .message{
+        width: 250px;
+        word-wrap: break-word;
+    }
+}

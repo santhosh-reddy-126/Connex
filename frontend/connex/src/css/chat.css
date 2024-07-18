@@ -1,0 +1,114 @@
+.container {
+    display: flex;
+    gap: 100px;
+}
+
+.header {
+    background-color: #45474B;
+    color: #F5F7F8;
+    border: 5px solid;
+    border-image: linear-gradient(10deg, yellow 50%, green 50%) 1;
+    font-size: 40px;
+    width: 1000px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.header img {
+    height: 35px;
+    margin-left: 10px;
+}
+
+
+.inputchat{
+    background-color: #45474B;
+    color: #F5F7F8;
+    border: 5px solid;
+    border-image: linear-gradient(30deg, yellow 50%, green 50%) 1;
+    font-size: 30px;
+    height: 40px;
+    width: 1010px;
+    margin-top: 20px;
+    font-weight: 900;
+    
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 40px;
+}
+
+.profile {
+    background-color: #45474B;
+    color: #F5F7F8;
+    border: 5px solid;
+    border-image: linear-gradient(30deg, yellow 50%, green 50%) 1;
+    width: 800px;
+    cursor: pointer;
+}
+@media screen and (max-width: 1200px) and (min-width:980px)  {
+    .inputchat{
+        width: 800px;
+    }
+    .header,.profile{
+        width: 700px;
+        font-size: 35px;
+    }
+    .container{
+        gap: 80px;
+    }
+    .header img{
+        height: 30px;
+    }
+}
+
+
+@media screen and (max-width: 980px) and (min-width:768px){
+    .inputchat{
+        width: 600px;
+    }
+    .header,.profile{
+        width: 500px;
+        font-size: 30px;
+    }
+    .container{
+        gap: 60px;
+    }
+    .header img{
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width:600px){
+    .inputchat{
+        width: 450px;
+    }
+    .header,.profile{
+        width: 400px;
+        font-size: 30px;
+    }
+    .container{
+        gap: 40px;
+    }
+    .header img{
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .inputchat{
+        width: 300px !important;
+    }
+    .header,.profile{
+        width: 250px;
+        font-size: 20px;
+    }
+    .container{
+        gap: 10px !important;
+    }
+    .header img{
+        height: 20px;
+    }
+}

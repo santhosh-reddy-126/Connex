@@ -1,0 +1,220 @@
+
+.Top>h1::after{
+  margin-left: 3%;
+  color: #F4CE14;
+  content: "CONNEX";
+  animation-name: kalki;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-delay: 0.2s;
+}
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.MainL {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  width: 450px;
+  color: #F4CE14;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+body{
+  background-image: url("../bgs/Login.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.FlexL {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  width: 100%;
+  height: 80vh;
+  
+}
+
+.Input2L {
+  background-color: transparent;
+  color: #45474B;
+  font-size: 25px;
+  width: 350px;
+  height: 40px;
+  border-radius: 8px;
+  border: 3px solid #379777;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.Inline{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.InputL {
+  background-color: transparent;
+  color: #45474B;
+  font-size: 25px;
+  width: 400px;
+  height: 40px;
+  border-radius: 8px;
+  border: 3px solid #379777;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.ButtonL {
+  background-color: #379777;
+  color: #F5F7F8;
+  font-size: 25px;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  margin: 4px;
+}
+
+.ShowPasswordButton {
+  background-color: #45474B;
+  border-radius: 10px;
+  width: 50px;
+  height: 52px;
+}
+
+@keyframes kalki{
+  0%{
+    content: "A";
+  }
+  3%{
+    content: "D";
+  }
+  6%{
+    content: "G";
+  }
+  9%{
+    content: "K";
+  }
+  12%{
+    content: "L";
+  }
+  15%{
+    content: "R";
+  }
+  17%{
+    content: "C";
+  }
+  20%{
+    content: "CA";
+  }
+  22%{
+    content: "CD";
+  }
+  24%{
+    content: "CG";
+  }
+  26%{
+    content: "CK";
+  }
+  28%{
+    content: "CL";
+  }
+  30%{
+    content: "CR";
+  }
+  32%{
+    content: "CO";
+  }
+  34%{
+    content: "COA";
+  }
+  37%{
+    content: "COD";
+  }
+  39%{
+    content: "COG";
+  }
+  42%{
+    content: "COK";
+  }
+  44%{
+    content: "COL";
+  }
+  46%{
+    content: "COR";
+  }
+  48%{
+    content: "CON";
+  }
+  51%{
+    content: "CONA";
+  }
+  53%{
+    content: "COND";
+  }
+  55%{
+    content: "CONG";
+  }
+  57%{
+    content: "CONK";
+  }
+  59%{
+    content: "CONL";
+  }
+  61%{
+    content: "CONR";
+  }
+  64%{
+    content: "CONN";
+  }
+  67%{
+    content: "CONNA";
+  }
+  69%{
+    content: "CONND";
+  }
+  71%{
+    content: "CONNG";
+  }
+  73%{
+    content: "CONNK";
+  }
+  75%{
+    content: "CONNL";
+  }
+  77%{
+    content: "CONNR";
+  }
+  80%{
+    content: "CONNE";
+  }
+  84%{
+    content: "CONNEA";
+  }
+  86%{
+    content: "CONNED";
+  }
+  89%{
+    content: "CONNEG";
+  }
+  91%{
+    content: "CONNEK";
+  }
+  94%{
+    content: "CONNEL";
+  }
+  97%{
+    content: "CONNER";
+  }
+  100%{
+    content: "CONNEX";
+  }
+}
+
