@@ -214,7 +214,9 @@ router.post("/getchats", async (req, res) => {
         );
         var myArray = []
         for (let i = 0; i < C.length; i++) {
-            myArray.push(C[i].fromwhom)
+            if(!myArray.includes(C[i].fromwhom)){
+                myArray.push(C[i].fromwhom)
+            }
         }
         // console.log(myArray)
         const D = await chat.find({
