@@ -7,7 +7,7 @@ import { useState } from 'react';
 import Modal from '../components/Modal';
 import Upload from '../components/Upload';
 import '../css/profile.css';
-var blink = "http://localhost:5000";
+var blink = "https://connex-backend.onrender.com";
 export default function Home() {
     const [action, setAction] = useState("");
     const [data, setData] = useState([]);
