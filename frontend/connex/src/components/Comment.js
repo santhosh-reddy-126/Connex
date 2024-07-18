@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../css/profile.css'; // Import the CSS file where your styles are defined
-var blink = "http://localhost:5000";
+var blink = "https://connex-backend.onrender.com";
 export default function Comment(props) {
     const [comm, setComm] = useState({
         com: [],
