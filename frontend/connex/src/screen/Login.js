@@ -42,6 +42,7 @@ export default function Login() {
           password: cred.password
         })
       });
+      console.log(blink+"/api/logon");
       const json = await resp.json();
       
       if (!json.success) {
