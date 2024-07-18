@@ -4,7 +4,7 @@ import like2 from './images/like2.png'
 import Modal from "./Modal.js"
 import Comment from './Comment.js'
 import "../css/one.css"
-var blink = "http://localhost:5000";
+var blink = "https://connex-backend.onrender.com";
 export default function (props) {
   const [likes, setlikes] = useState(0)
   const [liked, setliked] = useState(false)
