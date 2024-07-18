@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-var blink = "http://localhost:5000";
+var blink = "https://connex-backend.onrender.com";
 const Main = {
   backgroundColor: "blue",
   width: "500px",
